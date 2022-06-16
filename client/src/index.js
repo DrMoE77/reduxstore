@@ -3,11 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import env from "react-dotenv";
-
-export function MyComponent() {
-  return <div>{env.API_URL}</div>;
-}
 
 ReactDOM.render(
   <React.StrictMode>
